@@ -1,0 +1,233 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h2 {
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  .user-list input[type='text'] {
+    display: flex;
+    width: 96%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .new-user-form{  
+    margin-top: 10px;  
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;    
+    margin-bottom: 10px;
+    padding: 15px;
+  }
+  
+  .new-user-form input,
+  .new-user-form textarea,
+  .new-user-form select {
+    display: flex;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+  }
+  
+  .user-list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .user-item {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .user-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .user-header img.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .user-header h3 {
+    flex-grow: 1;
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .user-header span {
+    font-size: 24px;
+    color: #888;
+  }
+  
+  .user-details {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .user-details p {
+    margin: 5px 0;
+  }
+  
+  .user-details input[type='text'],
+  .user-details select,
+  .user-details textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: none;
+    overflow: hidden;
+  }
+  
+  button {
+    padding: auto;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button i {
+    margin-right: 5px;
+  }
+  
+  button.edit-btn {
+    color: #007bff;
+    background: none;
+    border: none;
+  }
+  
+  button.edit-btn i::before {
+    content: '\f304'; 
+  }
+  
+  button.delete-btn {
+    color: #dc3545;
+    background: none;
+    border: none;
+  }
+  
+  button.delete-btn i::before {
+    content: '\f2ed';
+  }
+  
+  button.delete-btn:hover {
+    color: #ff4d4d;
+  }
+  
+  button.cancel-btn {
+    color: #dc3545;
+    background: none;
+    border: none;
+  }
+  
+  button.cancel-btn i::before {
+    content: '\f057'; 
+  }
+  button.save-btn {
+    color: #28a745;
+    background: none;
+    border: none;
+  }
+  
+  button.save-btn i::before {
+    content: '\f058'; 
+  }
+  
+  button.final-del-btn{
+    color: #fff;
+    background-color: #dc3545;
+  }
+  
+  .confirm-delete {
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    margin: 20px auto;
+  }
+  
+  .confirm-delete p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-delete button {
+    margin: 0 5px;
+  }
+  
+  .confirm-delete .delete-btn {
+    background-color: #f44336;
+    color: #fff;
+  }
+  
+  .confirm-delete .cancel-btn {
+    background-color: #ddd;
+    color: #333;
+  }
+  
+  .user-header span {
+    transition: transform 0.3s;
+  }
+  
+  .user-header.active span {
+    transform: rotate(180deg);
+  }
+  
+  .user-list.modal-active {
+    filter: blur(5px);
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
