@@ -221,13 +221,13 @@ const UserList = () => {
           </label>
         <button
           onClick={cancelAddUser}
-          class="cancel-btn">
+          className ="cancel-btn">
           <i class="fa-regular fa-circle-xmark"></i>
         </button>
         <button 
           disabled={!isSaveEnabled}
           onClick={saveNewUser} 
-          class="save-btn">
+          className ="save-btn">
           <i class="fa-regular fa-circle-check"></i>
         </button>
       </div>
