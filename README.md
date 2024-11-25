@@ -1,6 +1,6 @@
 # Profile Nexus  
 
-**Profile Nexus** is a user management application built with React.js, allowing administrators to effortlessly manage user accounts. This application features search, edit, add, and delete functionalities within a responsive and interactive interface.  
+**Profile Nexus** is a user management application built with React.js, allowing administrators to effortlessly manage user accounts. This application features search, edit, add, and delete functionalities within a responsive and interactive interface. Built out of tinker😃
 
 ## Key Features  
 
