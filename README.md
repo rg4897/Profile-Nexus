@@ -6,7 +6,7 @@
 
 - **User Management**  
   - View, create, update, and delete user profiles.  
-  - Display user details, including name, age, gender, country, and description.  
+  - Display user details, including picture, name, age, gender, country, and description.  
 
 - **Responsive UI**  
   - Fully responsive design optimized for desktops, tablets, and mobile devices.  
