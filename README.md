@@ -27,8 +27,8 @@
 
 ## Tech Stack  
 
-- **Frontend:** React.js  
-- **State Management:** React Hooks  
+- **Frontend:** React.js
+- **State Management:** React Hooks, Redux Saga  
 - **Styling:** CSS, Font Awesome Icons  
 
 ## Getting Started  
